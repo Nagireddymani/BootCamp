@@ -2,6 +2,7 @@ package com.testng;
 
 public class FailedClass {
 
+/*
 	// Static method for screenshot
 		public static void captureScreenShot(WebDriver driver2,String screenShotName) {
 			try {
@@ -37,5 +38,5 @@ public class FailedClass {
 				driver1.quit();
 			}
 
-		}
+		} */
 }

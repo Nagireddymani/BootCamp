@@ -1,5 +1,5 @@
 package com.selenium_utility;
-
+/*
 import com.testng.AfterMethod;
 import com.testng.ChromeDriver;
 import com.testng.File;
@@ -7,9 +7,10 @@ import com.testng.ITestResult;
 import com.testng.TakesScreenshot;
 import com.testng.Test;
 import com.testng.WebDriver;
+*/
 
 public class SeleniumUtility {
-
+/*
 	public static void captureScreenShot(WebDriver driver2,String screenShotName) {
 		try {
 			TakesScreenshot ts=(TakesScreenshot)driver2;
@@ -44,5 +45,5 @@ public class SeleniumUtility {
 			driver1.quit();
 		}
 
-	}
+	} */
 }
