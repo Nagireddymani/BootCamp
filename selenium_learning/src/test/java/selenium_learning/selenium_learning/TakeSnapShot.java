@@ -23,7 +23,9 @@ public class TakeSnapShot {
 		 driver.get("https://filebin.net/");
 
          TakesScreenshot ts =(TakesScreenshot)driver;
-		 File source = ts.getScreenshotAs(OutputType.FILE);
+		 
+         File source = ts.getScreenshotAs(OutputType.FILE);
+		 
 		 FileUtils.copyFile(source,new File(("src/test/java/screenshots/filebin.png")));
 
 
