@@ -48,7 +48,7 @@ public class Library {
 		
 		logger.info("Starting with Browser Set Up");
 		String browser = properties.getProperty("browser");
-		String url = properties.getProperty("url");
+		String url = properties.getProperty("flipkartUrl");
 		
 		switch (browser.toLowerCase()) {
 		case "chrome":

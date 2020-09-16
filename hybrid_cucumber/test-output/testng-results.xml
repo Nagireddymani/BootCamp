@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82167" started-at="2020-09-16T06:24:39Z" finished-at="2020-09-16T06:26:01Z">
+  <suite name="Default suite" duration-ms="19665" started-at="2020-09-16T07:32:59Z" finished-at="2020-09-16T07:33:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82167" started-at="2020-09-16T06:24:39Z" finished-at="2020-09-16T06:26:01Z">
-      <class name="com.testcases.OrangeHrmLoginTestCase">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.testcases.OrangeHrmLoginTestCase@79c3f01f]" name="launchApp" is-config="true" duration-ms="58864" started-at="2020-09-16T06:24:39Z" finished-at="2020-09-16T06:25:38Z">
+    <test name="Default test" duration-ms="19665" started-at="2020-09-16T07:32:59Z" finished-at="2020-09-16T07:33:19Z">
+      <class name="com.testcases.FlipkartLoginTestCase">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.testcases.FlipkartLoginTestCase@28f8e165]" name="launchApp" is-config="true" duration-ms="11525" started-at="2020-09-16T07:32:59Z" finished-at="2020-09-16T07:33:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testcases.OrangeHrmLoginTestCase@79c3f01f]" name="login" duration-ms="20297" started-at="2020-09-16T06:25:38Z" finished-at="2020-09-16T06:25:59Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testcases.FlipkartLoginTestCase@28f8e165]" name="login" duration-ms="864" started-at="2020-09-16T07:33:11Z" finished-at="2020-09-16T07:33:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.OrangeHrmLoginTestCase@79c3f01f]" name="close" is-config="true" duration-ms="1801" started-at="2020-09-16T06:25:59Z" finished-at="2020-09-16T06:26:01Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.FlipkartLoginTestCase@28f8e165]" name="close" is-config="true" duration-ms="6881" started-at="2020-09-16T07:33:12Z" finished-at="2020-09-16T07:33:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.testcases.OrangeHrmLoginTestCase -->
+      </class> <!-- com.testcases.FlipkartLoginTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

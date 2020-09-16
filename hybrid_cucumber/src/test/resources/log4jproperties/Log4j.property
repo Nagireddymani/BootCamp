@@ -13,9 +13,9 @@ log4j.appender.TTCC=org.apache.log4j.RollingFileAppender
 log4j.appender.HTML=org.apache.log4j.FileAppender
  
 // Here we define log file location
-log4j.appender.R.File=.//src//test//resources//log4jproperties//LogFile.log
-log4j.appender.TTCC.File=.//src/test//resources//log4jproperties//LogFileBackup.log
-log4j.appender.HTML.File=.//src//test//resources//log4jproperties//application.html
+log4j.appender.R.File=.//src//test//resources//log4jproperties//FlipKartLogFile.log
+log4j.appender.TTCC.File=.//src/test//resources//log4jproperties//FlipKartLogFileBackup.log
+log4j.appender.HTML.File=.//src//test//resources//log4jproperties//FlipKartapplication.html
  
 // Here we define the layout and pattern
 log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout
