@@ -31,8 +31,13 @@ public class OrangeHrmLoginPage extends Library {
 	{
 		usernameText.sendKeys(username);
 		passwordText.sendKeys(password);
+	}
+	
+	public void Submit()
+	{
 		loginButton.click();
 	}
+	
 	
 	
 }

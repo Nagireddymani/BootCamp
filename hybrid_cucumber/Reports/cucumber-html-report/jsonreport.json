@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-16T09:21:29.243Z",
+        "line": 3,
+        "name": "To Test the Login Function of OrangeHrm",
+        "description": "",
+        "id": "to-test-the-orangehrm-application;to-test-the-login-function-of-orangehrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19629000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and Navigate to the Url",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6505000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 822000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To Take the Screenshot and the Title",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Take_the_Screenshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1991000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To Close the browser",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test the OrangeHrm Application",
+    "description": "",
+    "id": "to-test-the-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestCase.feature",
+    "tags": []
+  }
+]
