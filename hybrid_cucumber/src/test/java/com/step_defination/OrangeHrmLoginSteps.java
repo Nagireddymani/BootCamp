@@ -1,6 +1,5 @@
 package com.step_defination;
 
-import org.apache.log4j.Logger;
 
 import com.base_class.Library;
 import com.pages.OrangeHrmLoginPage;
@@ -38,14 +37,11 @@ public class OrangeHrmLoginSteps extends Library{
 		@Then("To Take the Screenshot and the Title")
 		public void to_Take_the_Screenshot_and_the_Title() {
 			seleniumUtility = new SeleniumUtility(driver);
-			seleniumUtility.to_take_screenshot("LoginPage1");
+			seleniumUtility.to_take_screenshot("LoginPage");
 			seleniumUtility.getTitle();
 			logger.info("Taken Screenshot Of Login Page And Title printed in console");
 		}
 		
-		@Then("To Close the browser")
-		public void to_Close_the_browser() {
-			tearDown();
-		}
+		
 		
 }

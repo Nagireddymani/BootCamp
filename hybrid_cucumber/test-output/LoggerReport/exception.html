@@ -100,12 +100,12 @@
 				<div class="p-2 px-3 text-muted text-sm">Tags</div>
 					<div class="list-item attr">
 						<div class="list-body">
-							<a href="#" class="item-title _500">org.openqa.selenium.NoSuchElementException</a>
+							<a href="#" class="item-title _500">java.lang.NullPointerException</a>
 							<div class="item-except text-sm text-muted h-1x">
 								1 tests
 							</div>
 							<div class="tc d-none">
-								<h5 class="mb-4">org.openqa.selenium.NoSuchElementException</h5>
+								<h5 class="mb-4">java.lang.NullPointerException</h5>
 								<table class="table">
 									<thead><tr>
 										<th id="status-col"></th>
@@ -117,10 +117,10 @@
 									</tr></thead>
 									<tbody>
 	
-<tr class="s-fail" test-id="4" parent-id="1">
+<tr class="s-fail" test-id="7" parent-id="1">
 	<td><span class="w-32 avatar circle fail"><span class="badge">fail</span></span></td>
-	<td class="_600">When To Enter Username and Password <br/><span class="text-muted text-sm">To Test the Login Function of OrangeHrm</span></td>
-	<td>0h 0m 31s+95msc</td>
+	<td class="_600">Given To Open Admin functionlity of OrangeHrm <br/><span class="text-muted text-sm">To Test the Admin Functionality of OrangeHrm</span></td>
+	<td>0h 0m 0s+19msc</td>
 	<td></td>
 	<td>
 	</td>
@@ -129,35 +129,9 @@
 <tr class="details">
 	<td colspan="5">
 		
-		<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#txtUsername"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-UAPI8PLG', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mani\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 69440cf7811ec236e4439c1358442164
-*** Element info: {Using=id, value=txtUsername}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-	at com.pages.OrangeHrmLoginPage.LoginUser(OrangeHrmLoginPage.java:32)
-	at com.step_defination.OrangeHrmLoginSteps.to_Enter_Username_and_Password(OrangeHrmLoginSteps.java:27)
-	at ✽.To Enter Username and Password(file:///C:/Users/Mani/git/Capgemini_BootCamp/hybrid_cucumber/src/test/resources/features/TestCase.feature:5)
+		<textarea disabled class="code-block">java.lang.NullPointerException
+	at com.step_defination.OrangeHrmAdminPageSteps.to_Open_Admin_functionlity_of_OrangeHrm(OrangeHrmAdminPageSteps.java:18)
+	at ✽.To Open Admin functionlity of OrangeHrm(file:///C:/Users/Mani/git/Capgemini_BootCamp/hybrid_cucumber/src/test/resources/features/TestCase.feature:10)
 </textarea>
 	</td>
 </tr>
@@ -185,7 +159,7 @@ Session ID: 69440cf7811ec236e4439c1358442164
 						            </div>
 									<ul class="nav nav-xs flex-row no-border pull-right">
 <li><a href="#" class="b-l"><span class="badge badge-pull">ExtentReports</span></a></li>
-<li><a href="#" class="b-l"><span class="badge badge-pull">Sep 16, 2020 02:50:12 PM</span></a></li>
+<li><a href="#" class="b-l"><span class="badge badge-pull">Sep 17, 2020 09:31:12 AM</span></a></li>
 <li><a href="#" class="b-l"><span class="badge badge-pull">4.0</span></a></li>
 								    </ul>
 								</div>
